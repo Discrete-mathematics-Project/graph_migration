@@ -6,12 +6,12 @@ import java.util.ArrayList;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-public class FileRead {
+public class FileRead1 {
     int num;
     int count = 0;
-    public ArrayList<Integer[][]> capacity = new ArrayList<>();
+    ArrayList<Integer[][]> capacity = new ArrayList<>();
 
-    public FileRead(String s) {
+    public FileRead1(String s) {
         try {
             File file = new File(s);
             Scanner scanner = new Scanner(file);
@@ -68,4 +68,3 @@ public class FileRead {
         }
     }
 }
-
